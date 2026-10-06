@@ -1,4 +1,4 @@
-using Solution;
+๏ปฟusing Solution;
 using UnityEngine;
 
 public class NPCSkill : Identity
@@ -8,7 +8,7 @@ public class NPCSkill : Identity
 
     public override bool Hit()
     {
-        // ตรวจสอบว่าผู้เล่นมีไอเท็มที่ต้องการหรือไม่
+        // ยตรรยจรรยบรรจร’ยผรรฉร ร…รจยนรร•รครร ยทรงรยทร•รจยตรฉรยงยกร’รรรร—รรครรจ
         if (canTalk)
         {
             Debug.Log("NPCSkill");

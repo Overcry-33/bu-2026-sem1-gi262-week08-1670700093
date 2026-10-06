@@ -44,9 +44,10 @@ public class SkillTreeUI : MonoBehaviour
 
         StartCoroutine(DelayShowTree());
 
-    
+
     }
-    IEnumerator DelayShowTree() {
+    IEnumerator DelayShowTree()
+    {
         yield return new WaitForSeconds(0.1f);
         // √’‡´Áµ¢Õ∫‡¢µ‡√‘Ë¡µÈπ
         minX = 0f;
@@ -139,7 +140,8 @@ public class SkillTreeUI : MonoBehaviour
         }
     }
 
-    public void CloseUI() { 
+    public void CloseUI()
+    {
         gameObject.SetActive(false);
     }
 
